@@ -18,11 +18,9 @@ elif age <65:
         ticket_price = 8
     else:
         ticket_price = 10
-    
-    
+        
 else:
     ticket_price = 6
-
 
 group_size = int(input("How many tickets are you buying? "))
 total_cost = ticket_price * group_size
